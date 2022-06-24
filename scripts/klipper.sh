@@ -272,7 +272,7 @@ function clone_klipper() {
   repo=$(echo "${repo}" | sed -r "s/^(http|https):\/\/github\.com\///i; s/\.git$//")
   repo="https://github.com/${repo}"
 
-  [[ -z ${branch} ]] && branch="master"
+  [[ -z ${branch} ]] && branch="Z-BoltUI"
 
   ### force remove existing klipper dir and clone into fresh klipper dir
   [[ -d ${KLIPPER_DIR} ]] && rm -rf "${KLIPPER_DIR}"
