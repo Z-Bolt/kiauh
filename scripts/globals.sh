@@ -50,7 +50,7 @@ function set_globals() {
   #================== FLUIDD ====================#
   FLUIDD_DIR="${HOME}/fluidd"
   FLUIDD_REPO_API="https://github.com/Z-Bolt/fluidd"
-  # FLUIDD_TAGS="https://api.github.com/repos/fluidd-core/fluidd/tags"
+  FLUIDD_TAGS="https://api.github.com/repos/fluidd-core/fluidd/tags"
 
   #=============== KLIPPERSCREEN ================#
   KLIPPERSCREEN_ENV="${HOME}/.KlipperScreen-env"
